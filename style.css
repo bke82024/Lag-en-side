@@ -38,11 +38,12 @@ div {
   justify-content: space-around;
   align-content: center;
   background-color: white;
-  min-height: 60svh;
+  min-height: 100svh;
   max-width: 50svh;
   border: #d3d3d3;
   border-style: solid;
-  border-width: 20px;
+  border-width: 40px;
+  border-left: none;
 }
 
 .center {
@@ -51,13 +52,13 @@ div {
   align-content: center;
   justify-content: center;
   background-color: white;
-  min-height: 60svh;
-  max-height: 60svh;
-  min-width: 60svh;
+  min-height: 100svh;
+  max-height: 00svh;
+  min-width: 100svh;
   max-width: 100svh;
   border: #d3d3d3;
   border-style: solid;
-  border-width: 20px;
+  border-width: 40px;
 }
 .right {
   display: flex;
@@ -65,9 +66,14 @@ div {
   justify-content: space-around;
   align-content: center;
   background-color: white;
-  min-height: 60svh;
+  min-height: 100svh;
   max-width: 70svh;
   border: #d3d3d3;
   border-style: solid;
-  border-width: 20px;
+  border-width: 40px;
+  border-right: none;
+}
+
+.h2 {
+  color: black;
 }
