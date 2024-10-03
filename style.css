@@ -53,7 +53,7 @@ div {
   justify-content: center;
   background-color: white;
   min-height: 100svh;
-  max-height: 00svh;
+  max-height: 100svh;
   min-width: 100svh;
   max-width: 100svh;
   border: #d3d3d3;
@@ -74,6 +74,6 @@ div {
   border-right: none;
 }
 
-.h2 {
-  color: black;
+.img {
+  object-fit: cover;
 }
